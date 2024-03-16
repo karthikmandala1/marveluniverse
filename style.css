@@ -1,0 +1,42 @@
+body{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQywEOMhEY6iJ1IY1v1GuRwl3F_B6_QcgYg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    background: rgba(red, green, blue, 1);
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+h3{
+    color: white;
+    font-size: xx-large;
+}
+.name{
+    display: flex;
+    justify-content:space-around;
+    background: rgba(0, 0, 0, 1);
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px 0px 50px 0px;
+    padding: 10px;
+    opacity: 0.6;
+}
+img:hover{
+    opacity:1;
+    width: 190px;
+    height:190px;
+}
